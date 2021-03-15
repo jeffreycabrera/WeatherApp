@@ -1,0 +1,122 @@
+{
+  "cnt": 3,
+  "list": [
+    {
+      "coord": {
+        "lon": 120.9822,
+        "lat": 14.6042
+      },
+      "sys": {
+        "country": "PH",
+        "timezone": 28800,
+        "sunrise": 1615759438,
+        "sunset": 1615802776
+      },
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "main": {
+        "temp": 28.37,
+        "feels_like": 33.16,
+        "temp_min": 27,
+        "temp_max": 29.44,
+        "pressure": 1008,
+        "humidity": 89
+      },
+      "visibility": 9000,
+      "wind": {
+        "speed": 3.6,
+        "deg": 80
+      },
+      "clouds": {
+        "all": 90
+      },
+      "dt": 1615799373,
+      "id": 1701668,
+      "name": "Manila"
+    },
+    {
+      "coord": {
+        "lon": 14.4208,
+        "lat": 50.088
+      },
+      "sys": {
+        "country": "CZ",
+        "timezone": 3600,
+        "sunrise": 1615785360,
+        "sunset": 1615827993
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "main": {
+        "temp": 5.82,
+        "feels_like": -0.01,
+        "temp_min": 5,
+        "temp_max": 7.22,
+        "pressure": 1009,
+        "humidity": 70
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 5.66,
+        "deg": 240
+      },
+      "clouds": {
+        "all": 75
+      },
+      "dt": 1615799366,
+      "id": 3067696,
+      "name": "Prague"
+    },
+    {
+      "coord": {
+        "lon": 126.9778,
+        "lat": 37.5683
+      },
+      "sys": {
+        "country": "KR",
+        "timezone": 32400,
+        "sunrise": 1615758222,
+        "sunset": 1615801115
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "main": {
+        "temp": 14.99,
+        "feels_like": 10.39,
+        "temp_min": 14,
+        "temp_max": 16,
+        "pressure": 1014,
+        "humidity": 47
+      },
+      "visibility": 7000,
+      "wind": {
+        "speed": 4.63,
+        "deg": 230
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1615799374,
+      "id": 1835848,
+      "name": "Seoul"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="toolbar_title">Weather Forecast</string>
+    <string name="temperature">%s°C</string>
+    <string name="temperature_over">%1$s°C / %2$s°C</string>
+    <string name="generic_error_title">Oops!</string>
+    <string name="connection_error_message">There seems to be a problem connecting to the server. Please try again later.</string>
+    <string name="not_found_error_message">Server not found. Please try again.</string>
+    <string name="bad_request_error_message">Bad request error. Please check your credentials</string>
+    <string name="generic_error_message">There is an error encountered. Please try again later.</string>
+    <string name="ok">OK</string>
+    <string name="no_result">No result found.</string>
+</resources>

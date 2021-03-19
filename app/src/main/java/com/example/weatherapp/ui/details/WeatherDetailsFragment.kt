@@ -22,6 +22,7 @@ class WeatherDetailsFragment : BaseFragment() {
 
     private lateinit var binding: FragmentWeatherDetailsBinding
 
+    // TODO: high: This should be handled in ViewModel
     private val prefConfig: PreferenceConfiguration by lazy {
         PreferenceConfigurationImpl(requireContext())
     }

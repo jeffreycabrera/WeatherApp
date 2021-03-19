@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var navHostFragment: NavHostFragment
 
+    // TODO: low: Property "sharedPreferences" is never used
     private lateinit var sharedPreferences: SharedPreferences
 
     private val navGraphId = R.navigation.navigation_main

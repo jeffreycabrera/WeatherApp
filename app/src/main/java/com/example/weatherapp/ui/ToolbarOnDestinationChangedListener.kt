@@ -11,6 +11,7 @@ class ToolbarOnDestinationChangedListener(
     toolbar: Toolbar
 ) : NavController.OnDestinationChangedListener {
 
+    // TODO: medium: What is the WeakReference for?
     private val toolbarWeakRef = WeakReference(toolbar)
 
     override fun onDestinationChanged(

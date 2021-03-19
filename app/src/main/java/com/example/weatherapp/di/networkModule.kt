@@ -15,9 +15,11 @@ val networkModule = module {
     single {
         OkHttpClient.Builder()
             .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
+            // TODO: low: Useless interceptor?
             .addInterceptor(
                 object : Interceptor {
                     override fun intercept(chain: Interceptor.Chain): Response {
+                        // TODO: low: Can be simplified to `chain.request()`
                         val request = chain.request().newBuilder().build()
                         return chain.proceed(request)
                     }

@@ -23,6 +23,7 @@ class WeatherListViewModel(
             City.MANILA.id,
             City.PRAGUE.id,
             City.SEOUL.id
+        // Nice `joinToString`, `{ it }` could be omitted though
         ).joinToString(separator = ",") { it }
         launch {
             _weatherListLiveData.value = repository.getWeatherList(listOfCityIds)

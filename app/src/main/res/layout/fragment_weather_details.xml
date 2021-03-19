@@ -23,6 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Manila" />
 
+        <!-- TODO: low: Min touch are should be 48 dp -->
         <ToggleButton
             android:id="@+id/favoriteToggleButton"
             android:layout_width="@dimen/image_favorite_size"

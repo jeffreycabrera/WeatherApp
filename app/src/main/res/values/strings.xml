@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">W Jeffrey Cabrera</string>
     <string name="toolbar_title">Weather Forecast</string>
     <string name="temperature">%s°C</string>
     <string name="temperature_over">%1$s°C / %2$s°C</string>

@@ -30,6 +30,7 @@ class WeatherDetailsViewModelTest {
 
     private lateinit var viewModel: WeatherDetailsViewModel
 
+    // TODO: low: Property 'cityId' could be private
     val cityId = "12345"
 
     @Before
